@@ -1,83 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Torodem's Page</title>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      background: #ccff;
-      color: black;
-      font-family: "Comic Sans MS", "Arial", sans-serif;
-    }
-    a {
-      color: blue;
-    }
-    a:hover {
-      color: red;
-      text-decoration: underline;
-    }
-    table {
-      width: 760px;
-      border: 2px solid black;
-      background: #ffffff;
-      margin: 20px auto;
-      cellpadding: 10;
-    }
-    h1 {
-      color: #0000cc;
-      text-shadow: 1px 1px #ffffff;
-    }
-    h2 {
-      background: #ccccff;
-      padding: 5px;
-      border: 1px solid #000099;
-    }
-    .footer {
-      font-size: 12px;
-      color: gray;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
-
 <body>
-
-<center>
-  <table cellspacing="0" cellpadding="10" border="1">
-    <tr bgcolor="#0FF1Ae">
-      <td align="center">
-        <font color="Black" face="Comic Sans MS">
-          <h1>Torodem</h1>
-          <marquee behavior="alternate" scrollamount="3" width="60%">Welcome to my website!</marquee>
-          <p><i>Gaming, music, and other cool stuff.*</i></p>
-        </font>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <h2>About Me</h2>
-        <p>Hi, I’m <b>Toro!</b> I like playing games such as <b>TF2</b>, <b>CSGO</b>, <b>Portal</b> and more!
-        I also like making music (haven’t made any yet but I’m working on it!).</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <h2>Latest Blog Posts</h2>
-        <p><b>Nov 1, 2025:</b> Well, Halloween is over! It’s also Saturday and November now.
-        I think I’m gonna try and make some music. I also get to work on cars next week starting on Monday — we’ll see how that goes.</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" class="footer">
-        <hr>
-        <font face="Verdana" size="2">© 2025 Torodem • All rights reserved</font><br>
-        <img src="https://web.archive.org/web/20090830130631im_/http://geocities.com/SiliconValley/Haven/5278/mailing.gif" alt="email icon">
-        <a href="mailto:torodem64@gmail.com">Email Me!</a>
-        <br><br>
-        <img src="https://web.archive.org/web/20090901192722im_/http://geocities.com/Vienna/Strasse/8444/undcoani.gif" alt="Under Construction">
-      </td>
-    </tr>
-  </table>
-</center>
-
+    <h2>Send Your Name</h2>
+    <form action="https://formsubmit.co/Torodem64@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
